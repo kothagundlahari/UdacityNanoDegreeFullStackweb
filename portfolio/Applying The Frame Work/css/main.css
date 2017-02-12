@@ -8,8 +8,34 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #747704;
+}
+
+div.Wrapper {
+    color: #747704;
+}
+
+{}
+
+h2 {
+    color: #BCBBBB;
+}
+
+h3 {
+    text-align: center;
+}
+
+.rightalign {
+    text-align: justify;
+    -moz-text-align-last: right;
+    /* Code for Firefox */
+    text-align-last: right;
 }
 
 .grid {

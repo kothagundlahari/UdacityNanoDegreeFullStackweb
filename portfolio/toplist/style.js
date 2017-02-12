@@ -18,6 +18,7 @@ export default StyleSheet.create({
     'display': 'flex'
   },
   'title': {
-    'backgroundColor': '#33BEBE'
+    'backgroundColor': '#33BEBE',
+    'color': 'white'
   }
 });

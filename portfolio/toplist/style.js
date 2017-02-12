@@ -2,9 +2,6 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   '*': {
-    'outline': '1px solid red !important'
-  },
-  '*': {
     'WebkitBoxSizing': 'border-box',
     'MozBoxSizing': 'border-box',
     'MsBoxSizing': 'border-box',
@@ -19,5 +16,8 @@ export default StyleSheet.create({
   'app': {
     'display': '-webkit-flex',
     'display': 'flex'
+  },
+  'title': {
+    'backgroundColor': '#33BEBE'
   }
 });

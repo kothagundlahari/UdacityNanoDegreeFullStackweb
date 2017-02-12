@@ -1,8 +1,4 @@
 * {
-    outline: 1px solid red !important;
-}
-
-* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -20,4 +16,8 @@
 .app {
     display: -webkit-flex;
     display: flex;
+}
+
+.title {
+    background-color: #33BEBE;
 }

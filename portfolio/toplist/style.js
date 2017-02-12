@@ -15,5 +15,9 @@ export default StyleSheet.create({
   },
   'description': {
     'maxWidth': [{ 'unit': 'px', 'value': 705 }]
+  },
+  'app': {
+    'display': '-webkit-flex',
+    'display': 'flex'
   }
 });

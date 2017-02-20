@@ -12,12 +12,24 @@ I've left some boilerplate below for you.
 
 */
 
-body {}
+body {
+    width: 50em;
+    height: auto;
+}
 
 article {
     width: 50em;
 }
 
-h1 {}
+h1 {
+    text-align: center;
+}
 
-img {}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    max-width: 80%;
+}

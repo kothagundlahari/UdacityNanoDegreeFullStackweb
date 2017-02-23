@@ -3,5 +3,7 @@
     "jshint.enable": false,
     "standard.enable": false,
     "tslint.enable": false,
-    "vsicons.presets.angular": false
+    "vsicons.presets.angular": false,
+    "angulardoc.repoId": "dda76bd5-bf9c-4d06-8321-d8c3cf9ebcde",
+    "angulardoc.lastSync": 0
 }

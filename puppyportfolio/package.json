@@ -1,26 +1,26 @@
 {
-  "name": "puppyportfolio",
-  "version": "1.0.0",
-  "description": "making portpolio website",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kothagundlahari/UdacityNanoDegreeFullStackweb.git"
-  },
-  "keywords": [
-    "portpolio"
-  ],
-  "author": "hari",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kothagundlahari/UdacityNanoDegreeFullStackweb/issues"
-  },
-  "homepage": "https://github.com/kothagundlahari/UdacityNanoDegreeFullStackweb#readme"
+    "name": "puppyportfolio",
+    "version": "1.0.0",
+    "description": "making portpolio website",
+    "main": "PuppyPortfolio.html",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^3.9.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kothagundlahari/UdacityNanoDegreeFullStackweb.git"
+    },
+    "keywords": [
+        "portpolio"
+    ],
+    "author": "hari",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kothagundlahari/UdacityNanoDegreeFullStackweb/issues"
+    },
+    "homepage": "https://github.com/kothagundlahari/UdacityNanoDegreeFullStackweb#readme"
 }

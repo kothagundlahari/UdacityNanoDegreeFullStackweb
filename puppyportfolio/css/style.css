@@ -30,3 +30,8 @@ hr {
     border: solid 0.5px dimgrey !important;
     height: 5px !important;
 }
+
+section#post {
+    max-width: 50em;
+    width: 90vw;
+}

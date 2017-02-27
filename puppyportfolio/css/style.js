@@ -27,5 +27,9 @@ export default StyleSheet.create({
     'color': 'dimgrey !important',
     'border': [{ 'unit': 'string', 'value': 'solid' }, { 'unit': 'px', 'value': 0.5 }, { 'unit': 'string', 'value': 'dimgrey' }, { 'unit': 'string', 'value': '!important' }],
     'height': [{ 'unit': 'px', 'value': 5 }, { 'unit': 'string', 'value': '!important' }]
+  },
+  'section#post': {
+    'maxWidth': [{ 'unit': 'em', 'value': 50 }],
+    'width': [{ 'unit': 'vw', 'value': 90 }]
   }
 });

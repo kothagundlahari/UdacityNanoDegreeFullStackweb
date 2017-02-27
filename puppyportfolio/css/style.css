@@ -2,10 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
     color: #747704;
     font-weight: Regular;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: 3vh 0 3vh 0;
 }
 
 .text-muted {
@@ -29,9 +25,4 @@ hr {
     color: dimgrey !important;
     border: solid 0.5px dimgrey !important;
     height: 5px !important;
-}
-
-section#post {
-    max-width: 50em;
-    width: 90vw;
 }

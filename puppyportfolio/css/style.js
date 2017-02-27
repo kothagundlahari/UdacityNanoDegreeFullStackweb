@@ -4,7 +4,9 @@ export default StyleSheet.create({
   'body': {
     'fontFamily': ''Lato', sans-serif',
     'color': '#747704',
-    'fontWeight': 'Regular'
+    'fontWeight': 'Regular',
+    'display': 'flex',
+    'flexDirection': 'column'
   },
   'text-muted': {
     'color': '#BCBBBB'

@@ -32,15 +32,25 @@ export default StyleSheet.create({
     'fontWeight': '100'
   },
   'title-logo': {
-    'marginTop': [{ 'unit': 'px', 'value': 20 }]
+    'marginTop': [{ 'unit': 'px', 'value': 20 }],
+    'width': [{ 'unit': '%H', 'value': 0.2 }]
   },
   'title-super': {
-    'fontSize': [{ 'unit': 'px', 'value': 60 }]
+    'fontSize': [{ 'unit': 'px', 'value': 60 }],
+    'width': [{ 'unit': '%H', 'value': 0.8 }]
   },
   'hr': {
     'backgroundColor': 'dimgrey !important',
     'color': 'dimgrey !important',
     'border': [{ 'unit': 'string', 'value': 'solid' }, { 'unit': 'px', 'value': 0.5 }, { 'unit': 'string', 'value': 'dimgrey' }, { 'unit': 'string', 'value': '!important' }],
     'height': [{ 'unit': 'px', 'value': 5 }, { 'unit': 'string', 'value': '!important' }]
+  },
+  'header_inner': {
+    'display': 'block'
+  },
+  'header_image': {
+    'width': [{ 'unit': 'px', 'value': 300 }]
+  },
+  'header_text': {
   }
 });

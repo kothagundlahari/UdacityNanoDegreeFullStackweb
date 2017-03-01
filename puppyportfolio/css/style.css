@@ -30,10 +30,12 @@ body {
 
 .title-logo {
     margin-top: 20px;
+    width: 20%;
 }
 
 .title-super {
     font-size: 60px;
+    width: 80%;
 }
 
 hr {
@@ -42,3 +44,13 @@ hr {
     border: solid 0.5px dimgrey !important;
     height: 5px !important;
 }
+
+.header_inner {
+    display: block;
+}
+
+.header_image {
+    width: 300px;
+}
+
+.header_text {}

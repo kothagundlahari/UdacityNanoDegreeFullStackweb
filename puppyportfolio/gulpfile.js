@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
-    minifyCSS = require('gulp-minify-css')
-imagemin = require('gulp-imagemin')
+    minifyCSS = require('gulp-minify-css'),
+    imagemin = require('gulp-imagemin')
+
 
 gulp.task('scripts', function() {
     gulp.src('js/*.js')
@@ -20,5 +21,8 @@ gulp.task('imagemin', function() {
         .pipe(imagemin())
         .pipe(gulp.dest('dev/images/minPng'))
 })
+
+
+
 
 gulp.task('default', ['scripts', 'styles', 'imagemin'])

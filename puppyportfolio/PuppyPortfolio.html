@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -16,105 +17,114 @@
 
 <body>
 
-    <div class="container">
-        <header>
+    <header class="header">
+        <div class="header_inner">
+            <img class="title-logo img-responsive" src="images/logo.png" alt="logo of Udacity">
+            <h1 class="title-super text-thin ">Jane Doette</h1>
+            <h4>Front-end Ninja</h4>
+
+        </div>
+    </header>
+    <article>
+        <section id="post">
+            <div class="row ">
+
+                <hr>
+
+            </div>
             <div class="row">
-                <div class="col-md-6">
-                    <img class="title-logo img-responsive" src="images/100x100">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/1140x350">
+
                 </div>
-                <div class="col-md-6 text-right text-uppercase">
-                    <h1 class="title-super text-thin ">Jane Doette</h1>
-                    <h4>Front-end Ninja</h4>
+
+            </div>
+            <div class="row text-muted">
+
+                <h2> Featured Work</h2>
+
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/555x300" data-toggle="modal" data-target="#project1">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com">Link to project</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/555x300" data-toggle="modal" data-target="#project2">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com">Link to project</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/555x300" data-toggle="modal" data-target="#project3">
+                    <h3>Appify</h3>
+                    <p><a href="http://github.com">Link to project</a></p>
                 </div>
             </div>
-        </header>
-        <article>
-            <section id="post">
-                <div class="row ">
-                    <div class="col-md-12 ">
-                        <hr>
+            <!-- Modal -->
+            <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/555x300"> This was my first project in this class. I learned a lot about HTML and CSS.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-responsive" src="images/1140x350">
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/555x300"> This was my first project in this class. I learned a lot about HTML and CSS.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/555x300"> This was my first project in this class. I learned a lot about HTML and CSS.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                    </div>
-                </div>
-                <div class="row text-muted">
-                    <div class="col-md-12">
-                        <h2>Featured Work</h2>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <img class="img-responsive" src="images/555x300" data-toggle="modal" data-target="#project1">
-                        <h3>Appify</h3>
-                        <p><a href="http://github.com">Link to project</a></p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-responsive" src="images/555x300" data-toggle="modal" data-target="#project2">
-                        <h3>Appify</h3>
-                        <p><a href="http://github.com">Link to project</a></p>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-responsive" src="images/555x300" data-toggle="modal" data-target="#project3">
-                        <h3>Appify</h3>
-                        <p><a href="http://github.com">Link to project</a></p>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                            </div>
-                            <div class="modal-body">
-                                <img class="img-responsive" src="images/555x300"> This was my first project in this class. I learned a lot about HTML and CSS.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                            </div>
-                            <div class="modal-body">
-                                <img class="img-responsive" src="images/555x300"> This was my first project in this class. I learned a lot about HTML and CSS.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                            </div>
-                            <div class="modal-body">
-                                <img class="img-responsive" src="images/555x300"> This was my first project in this class. I learned a lot about HTML and CSS.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    </article>
+    <footer>
 
-        </article>
-    </div>
+        <div id="social">
+            <a href="https://twitter.com/home?status=https://github.com/udacity/responsive-images" class="zocial-twitter">Twitter</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/udacity/responsive-images" class="zocial-facebook">Facebook</a>
+            <a href="https://plus.google.com/share?url=https://github.com/udacity/responsive-images" class="zocial-googleplus">Google+</a>
+            <a href="http://digg.com/submit?phase=2&url=https%3A%2F%2Fgithub.com%2Fudacity%2Fresponsive-images&title=Udacity%20nano%20course%3A%20Responsive%20Images&bodytext=Responsive%20images%20for%20your%20sites%20and%20web%20apps&topic=tech_news" class="zocial-digg">Digg</a>
+        </div>
+
+        <a href="https://github.com/kothagundlahari/UdacityNanoDegreeFullStackweb/tree/master/puppyportfolio" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+
+    </footer>
+
 
 </body>
 

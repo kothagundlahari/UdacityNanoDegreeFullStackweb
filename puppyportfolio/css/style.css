@@ -24,7 +24,7 @@ body {
 
 .title-logo {
     margin-top: 20px;
-    width: 20%;
+    width: 100px;
 }
 
 .title-super {
@@ -40,4 +40,8 @@ hr {
 
 .header_inner {
     display: block;
+}
+
+.header_image {
+    max-width: 300px;
 }

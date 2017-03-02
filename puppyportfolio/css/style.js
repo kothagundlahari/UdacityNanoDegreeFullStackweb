@@ -28,7 +28,7 @@ export default StyleSheet.create({
   },
   'title-logo': {
     'marginTop': [{ 'unit': 'px', 'value': 20 }],
-    'width': [{ 'unit': '%H', 'value': 0.2 }]
+    'width': [{ 'unit': 'px', 'value': 100 }]
   },
   'title-super': {
     'fontSize': [{ 'unit': 'px', 'value': 60 }],
@@ -41,5 +41,8 @@ export default StyleSheet.create({
   },
   'header_inner': {
     'display': 'block'
+  },
+  'header_image': {
+    'maxWidth': [{ 'unit': 'px', 'value': 300 }]
   }
 });

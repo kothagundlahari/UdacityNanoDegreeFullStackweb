@@ -31,8 +31,7 @@ export default StyleSheet.create({
     'width': [{ 'unit': 'px', 'value': 100 }]
   },
   'title-super': {
-    'fontSize': [{ 'unit': 'px', 'value': 60 }],
-    'width': [{ 'unit': '%H', 'value': 0.8 }]
+    'fontSize': [{ 'unit': 'px', 'value': 60 }]
   },
   'hr': {
     'backgroundColor': 'dimgrey !important',

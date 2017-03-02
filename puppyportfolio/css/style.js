@@ -41,8 +41,5 @@ export default StyleSheet.create({
   },
   'header_inner': {
     'display': 'block'
-  },
-  'header_image': {
-    'width': [{ 'unit': 'px', 'value': 300 }]
   }
 });

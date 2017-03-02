@@ -1,1 +1,20 @@
-@media screen and (max-width: 549px) {}
+.header_inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_image {
+    width: 20%;
+}
+
+.header_text {
+    width: 80%;
+}
+
+.header_image:nth-of-type(1) {
+    width: 20%;
+}
+
+.header_image:nth-of-type(2) {
+    width: 80%;
+}

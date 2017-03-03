@@ -4,8 +4,10 @@
 
 .header_image {
     width: 100px;
+    flex: 1;
 }
 
 .header_text {
     width: 80%;
+    flex: 1;
 }

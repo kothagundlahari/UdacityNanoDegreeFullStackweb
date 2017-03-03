@@ -5,9 +5,11 @@ export default StyleSheet.create({
     'display': 'flex'
   },
   'header_image': {
-    'width': [{ 'unit': 'px', 'value': 100 }]
+    'width': [{ 'unit': 'px', 'value': 100 }],
+    'flex': '1'
   },
   'header_text': {
-    'width': [{ 'unit': '%H', 'value': 0.8 }]
+    'width': [{ 'unit': '%H', 'value': 0.8 }],
+    'flex': '1'
   }
 });

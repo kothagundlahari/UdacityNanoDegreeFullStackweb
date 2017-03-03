@@ -36,11 +36,3 @@ hr {
     color: dimgrey !important;
     height: 5px !important;
 }
-
-.header_inner {
-    display: block;
-}
-
-.header_image {
-    max-width: 300px;
-}

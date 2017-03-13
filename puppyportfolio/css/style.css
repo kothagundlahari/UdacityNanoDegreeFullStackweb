@@ -1,17 +1,13 @@
-body,
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 80%;
-}
-
 body {
     font-family: 'Lato', sans-serif;
     color: #747704;
     font-weight: Regular;
     display: flex;
+    align-items: center;
+    display: flex;
     flex-direction: column;
+    /*margin: 3vh 0 3vh 0; */
+    text-align: center;
 }
 
 .text-muted {
@@ -35,4 +31,12 @@ hr {
     background-color: dimgrey !important;
     color: dimgrey !important;
     height: 5px !important;
+}
+
+article {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 50em;
+    border-bottom: 1px solid #ddd;
 }

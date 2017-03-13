@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Removing Vowels</title>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <script>
+        function removeVowels() {
+            var namestr = "harikrishnakothagundla";
+            var len = namestr.length;
+            for (i = 0; i <= len; i++) {
+                if (namestr[i] == 'a' || namestr[i] == 'e' || namestr[i] == 'i' || namestr[i] == 'o' || namestr[i] == 'u' || namestr[i] == 'A' || namestr[i] == 'E' || namestr[i] == 'I' || namestr[i] == 'O' || namestr[i] == 'U')
+                    namestr[i] = ' ';
+                else
+                    namestr[i++] = namestr[i];
+            }
+            return namestr;
+        }
+        console.log(removeVowels())
+    </script>
+</body>
+
+</html>

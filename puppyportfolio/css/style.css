@@ -6,12 +6,12 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    /*margin: 3vh 0 3vh 0; */
     text-align: center;
 }
 
 .text-muted {
     color: #BCBBBB;
+    text-align: center;
 }
 
 .text-thin {
@@ -21,10 +21,20 @@ body {
 .title-logo {
     margin-top: 20px;
     width: 100px;
+    height: 100px;
 }
 
 .title-super {
     font-size: 60px;
+}
+
+.header_text {
+    text-align: right;
+    float: right;
+}
+
+.header_image {
+    float: left;
 }
 
 hr {

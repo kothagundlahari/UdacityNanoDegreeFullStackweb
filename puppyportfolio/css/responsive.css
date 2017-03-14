@@ -1,13 +1,11 @@
-    .header_inner {
-    display: flex;
-}
-
-.header_image {
-    width: 100px;
-    flex: 1;
-}
-
-.header_text {
-    width: 80%;
-    flex: 1;
+@media screen and (min-width: 550px) {
+    .header_image {
+        order: 0;
+        width: 60%;
+    }
+    .header_text {
+        order: 1;
+        width: 40%;
+        text-align: left;
+    }
 }

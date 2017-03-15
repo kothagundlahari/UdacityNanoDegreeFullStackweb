@@ -12,11 +12,7 @@ export default StyleSheet.create({
     'textAlign': 'center'
   },
   'text-muted': {
-    'color': '#BCBBBB',
-    'textAlign': 'center'
-  },
-  'text-thin': {
-    'fontWeight': '100'
+    'color': '#BCBBBB'
   },
   'title-logo': {
     'marginTop': [{ 'unit': 'px', 'value': 20 }],
@@ -24,14 +20,8 @@ export default StyleSheet.create({
     'height': [{ 'unit': 'px', 'value': 100 }]
   },
   'title-super': {
-    'fontSize': [{ 'unit': 'px', 'value': 60 }]
-  },
-  'header_text': {
-    'textAlign': 'right',
-    'float': 'right'
-  },
-  'header_image': {
-    'float': 'left'
+    'fontSize': [{ 'unit': 'px', 'value': 60 }],
+    'fontWeight': '100'
   },
   'hr': {
     'backgroundColor': 'dimgrey !important',

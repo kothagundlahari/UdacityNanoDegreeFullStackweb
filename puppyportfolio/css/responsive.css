@@ -1,11 +1,28 @@
-@media screen and (min-width: 550px) {
-    .header_image {
+@media screen and (max-width:480px) {
+    .text-muted {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:481px) {
+    .header_inner_image {
         order: 0;
         width: 60%;
     }
-    .header_text {
+    .header_inner_text {
         order: 1;
         width: 40%;
-        text-align: left;
+    }
+    .title-logo {
+        float: left;
+    }
+    .header_text {
+        float: right;
+    }
+    .sub_text {
+        float: right;
+    }
+    .text-muted {
+        float: left;
     }
 }

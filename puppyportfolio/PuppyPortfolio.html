@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stlyesheet" href="css/responsive.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.1.1.slim.min.js"></script>
@@ -18,32 +20,37 @@
 <body>
     <div class="container">
         <header>
-            <div class="header_inner">
-                <div class="row">
+            <div class="row">
+                <div class="header_inner_image">
                     <div class="header_image col-md-8">
                         <img class="title-logo" src="dev/images/minPng/logo.png" alt="logo of Udacity">
                     </div>
-
+                </div>
+                <div class="header_inner_text">
                     <div class="header_text col-md-4">
                         <h1 class="title-super text-thin ">Jane Doette</h1>
                         <h4 class="sub_text"> Front-end Ninja</h4>
                     </div>
+
                 </div>
             </div>
         </header>
 
         <section id="post">
-            <div class="row ">
-                <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
             </div>
             <div class="row">
-
-                <img class="img-responsive" src="http://placekitten.com/1140/350">
-
+                <img class="img-responsive col-md-12" src="http://placekitten.com/1140/350">
             </div>
 
             <div class="row text-muted">
-                <h2> Featured Work </h2>
+                <div class="col-lg-4">
+                    <h2> Featured Work </h2>
+                </div>
+
             </div>
             <div class="row text-center">
                 <div class="col-md-4">

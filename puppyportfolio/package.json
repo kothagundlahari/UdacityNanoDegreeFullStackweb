@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "making portpolio website",
   "main": "PuppyPortfolio.html",
-  "dependencies": {},
+  "dependencies": {
+    "flexboxgrid": "^6.3.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-imagemin": "^3.1.1",

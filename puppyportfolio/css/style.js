@@ -4,10 +4,8 @@ export default StyleSheet.create({
   'body': {
     'fontFamily': ''Lato', sans-serif',
     'color': '#747704',
-    'fontWeight': 'Regular',
     'display': 'flex',
     'alignItems': 'center',
-    'display': 'flex',
     'flexDirection': 'column',
     'textAlign': 'center'
   },

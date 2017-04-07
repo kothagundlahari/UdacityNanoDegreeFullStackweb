@@ -47,4 +47,3 @@ class MainHandler(webapp2.RequestHandler):
         self.response.out.write("Thanks. This is a valid syntax")
 
 
-app = webapp2.WSGIApplication([('/', MainHandler)], debug=True)

@@ -1,37 +1,9 @@
 
-
 import webapp2
-months = ['January',
-          'February',
-          'March',
-          'April',
-          'May',
-          'June',
-          'July',
-          'August',
-          'September',
-          'October',
-          'November',
-          'December']
 
 
-def valid_month(month):
-    if month:
-        cap_month = month.capitalize()
-        if cap_month in months:
-            return cap_month
-def valid_day(day):
-        if day and day.isdigit():
-            day = int(day)
-        if day > 0 and day <= 31:
-            return day
 
 
-def valid_year(year):
-    if year and year.isdigit():
-        year = int(year)
-        if year > 1990 and year < 2020:
-            return year
 
 form = """
 <form method="post">
@@ -55,12 +27,38 @@ What is your Birthday?
 
 
 class MainHandler(webapp2.RequestHandler):
+    months = ['January',
+          'February',
+          'March',
+          'April',
+          'May',
+          'June',
+          'July',
+          'August',
+          'September',
+          'October',
+          'November',
+          'December']
+def self.valid_month(month):
+    if month:
+        cap_month = month.capitalize()
+        if cap_month in months:
+            return cap_month
+def self.valid_day(day):
+        if day and day.isdigit():
+            day = int(day)
+        if day > 0 and day <= 31:
+            return day
+def self.valid_year(year):
+    if year and year.isdigit():
+        year = int(year)
+        if year > 1990 and year < 2020:
+            return year
 
-    def get(self):
-       # self.response.headers['Content-Type'] = 'text/plain'
+def get(self):
         self.response.write(form)
 
-    def post(self):
+def post(self):
         user_month = valid_month(self.request.get('month'))
         user_year = valid_year(self.request.get('year'))
         user_day = valid_day(self.request.get('day'))

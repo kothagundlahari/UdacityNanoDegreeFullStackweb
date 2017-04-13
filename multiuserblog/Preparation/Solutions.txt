@@ -1,0 +1,222 @@
+HTML 
+
+1) What is doctype and why it is used? <!Doctype HTML> -- html4 and html5
+Reference 1:
+Reference 2:
+Reference 3:
+Reference 4:
+Reference 5:
+
+2) Differences between html4 and HTML5
+3) sematic elements ? what are them, why we use
+4) media elements (audio and video)
+5) HTML5 Api's (storage, web workers, file api, navigator, application cache)
+6) differences between cookie, local storage and session storgae
+7) why div and span?
+8) why inline and block elements
+9) differences between xhtml, dtml and regular html
+10) what is header, footer, aside, nav, menu
+11) what is iframe? what is frameset? 
+12) What is canvas and how use it? how have you used in your 
+13) svg? 
+14) diff between svg and canvas?
+15) polyfills for html5 in ie8?
+16) cross browser compatibilty in html
+
+
+CSS
+
+1) diff between inline, inline-block, block -- display property?
+2) display none and visbility hidden differences
+3) box model?
+4) pseudo classes?
+5) flex?
+6) media queries
+7) position property differences static,  relative, absolute and fixed.
+8) css sprites -- 
+9) all css selectors?
+10) float ? 
+11) box sizing
+12) css animations
+13) css gradients
+14) break points used in media quires in your project? 
+15) cross browser compatibilty and polyfills used?
+16) what is responsive web design?
+17) preprocessor?
+18) name spaces in css?
+19) what is differences border, padding and margin? 
+20) z-index?
+21) font-styles used in project
+22) internal, inline and external? what needs to be used
+23) what is css specificity?
+24) what is !important
+25) Responsive Wed Design  and Adaptive web design?
+26) how have you used with in your projects of all above properties
+27) CSS Shorthand properties
+28) grouping in css through selectors?
+29) css2 and css3 differences and css3 properties ?
+30) overflow porperty in css? 
+31) what is view port
+
+Bootstrap 
+
+1) grid system ? (row, col-*-*, offset, visibility, hidden)
+2) container, container-fluid and fixed differences
+3) Ui Components from bootstraps (Tooltip, model, carousel, nav bar, scroll spy, pagination, ........)
+4) defalut break point of boostrap?
+
+
+SASS
+
+1) what is sass?
+2) nesting?
+3) varibles?
+4) mixin?
+5) import
+6) partials
+7) operators in sass
+8) pre compilation tools used with grunt gulp or any build process tools.
+
+JavaScript
+1) events ? 
+2) event propagation
+3) bubling and capturing diffreneces with example.
+4) what is a cookie? how to add or remove cookies and access 
+5) == and === is differences
+6) prototype
+7) closure? explain with examples -- how to make variable priavte. inner and outer function
+8) different ways of creating object(literal, new constructirname(), Object.create(...))
+9) differences between call, apply, bind
+10) what is this keyword mean?
+11) hoisting ?
+12) delegation in javascript?
+13) design pattern used (factory, service locator, module, AMD)
+14) diff data types in javascript?
+15) null and undefined diff?
+16) "use strict"?
+17) inheritance? diff between java script prototypes and classical inheritance
+18) undeclared and undefined? 
+19) NaN , isNaN, 
+20) NaN == NaN, NaN === NaN
+21) data type of NaN
+23) call back
+24) new keyword
+25) Object.keys, Object.Create()
+26) what is window ? 
+27) within a function declare a variable without var keyword?
+28) scope in javascript?
+29) how do we create a class in javascript? -- similar to function
+30) .js and min.js? minification?
+31) CDN?
+32) Arrays ? Array.isArray, .length, .slice, .splice, .map, .forEach, Examples, differrnces, implemntation used 
+33) Object ? how to add property, remove property, hasOwnProperty?, 
+34) Element library access attributes classlist?
+35) add an attribute to elemnt in javascript
+36) detect a browser in javascript?
+37) access cookies and access Query parameters
+38) interval, setTimeout()
+
+jQuery 
+1) empty, remove, detach, 
+2) no conflict in jquery and $
+3) jQuery chaining
+4) jQuery document ready, window on load?
+5) event delegation
+6) bind and on
+7) deep copy and shallow copy
+8) jQuery plugin ? what have you used?
+9) jQuery AjaX methods used (get, post, put, delete, $.ajax())
+10) jQuery promises
+11) clone in jQuery
+12) accessing cookies in jQUery
+13) jQuery Selectors(), basic, attributes, child, content, filters
+
+
+
+
+AngularJS
+1) intriduce yourself? what your knwo about Angular.js
+2) why to use angular
+3) features of angular?
+4) differences between jQuery and AngularJs, when to use what? can both be used?
+5) what is MVC and MVVM? differences? 
+6) version you are familar, browsers you have supportd using angularJS
+7) Factory
+8) service
+9) providers, constants, varaibles
+10) controllers? when to use?
+11) Routing ? 
+12) ngRoute confuguartions, ui.router configuration
+13) ng-view
+14) common in built directives? 
+15) $scope and $rootScope
+16) filters list and custim filters created? 
+17) diff between ng-repeat and ng-options when to use what? 
+18) .config(), .run(), differnces
+19) what is single page application's(SPA's) ? how do we use them ? 
+20) what is ui-router how do you use it to create nested views, multiple views, configuration with example
+21) ng-show and ng-if differences
+22) controlerAs syntax what is the use for it
+23) $emit $on and $broadcast differences and uses
+24) controller to controler communications ways
+25) module to module communications ways
+26) directive to directive communications ways
+27) $window
+28) $interval $timeout
+29) ngCookies
+30) digest cycle? 
+31) differnces between watch, digest and apply with examples and when to use 
+32) interceptors?
+33) custom directives? all properties used?
+34) scope isolation ? and what are @, =, &
+35) transclude in custom directives
+36) what is link and compile and their differences?
+37) prelink and post link and uses in custom directives
+38) $http and $q and uses?
+39) what si $resource and restAngular how did you use them in your project?
+40) ngFocus, ngBlur, ngClick, ng.....
+41) validations in angular, ng-minlength, ng-maxlenth, ng-reuired, ng-pattern, ng-change, $valid, $invalid, $pristine, ngtouched, dirty, set validity for validations, complete form validation and showing errors?
+42) bootstrapping in angular.bootstrap(), multiplr ng-apps in a page?
+43) regsiter module, 
+44) depenedecy injection?
+45) one time databinding, one way data binding, two way data binding, 
+46) ui.bootstarp and third party angular modules used?
+47) $routeprovider and state provider and where you configure provider?
+48) what is differnces between angular expressions (ng-bind or {{}}) and java script expression and example.
+49) what do you know about angular 2.0
+50) any details about typescript or es6 with angular. 
+
+
+
+NodeJS 
+-- blocking and non blocking
+-- call back hell, promises, asynchnrous programming
+-- common js require
+-- 
+
+
+common commad used with node js and modules?
+Npm 
+Grunt? what have you done with it, minifcation, watch, test task, task runner configuartions
+bower -- download and ui dependencies
+expres ? --? middle ware, rest
+
+git ?
+branching?
+push
+pull
+commit
+merge conflict
+
+
+Continous intergations? have you used Jenkins or bamboo
+
+what sdlc?
+where would deliver your code? repository and pushing into right repo
+
+tools for agile used ? JIRA?
+bug tracking?
+
+how do you get requirements?/
+
+function programming and object oriented programming differences? 

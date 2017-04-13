@@ -1,10 +1,5 @@
 
 import webapp2
-
-
-
-
-
 form = """
 <form method="post">
 What is your Birthday?

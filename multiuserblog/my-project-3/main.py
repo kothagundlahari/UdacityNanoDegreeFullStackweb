@@ -5,14 +5,15 @@ form = """
 What is your Birthday?
 <br>
 <label>Month
-<input type="text" name="month">
+<input type="text" name="month" value="%(month)s">
 </label>
 <label>Date
-<input type="text" name="day">
+<input type="text" name="day" value="%(day)s">
 </label>
 <label>Year
-<input type="text" name="year">
+<input type="text" name="year" value="%(year)s">
 </label>
+<div style= "color : red">%(error)s</div>
 
 <br>
 <br>
@@ -22,19 +23,10 @@ What is your Birthday?
 
 
 class MainHandler(webapp2.RequestHandler):
+    def write_form(self,error="", month="", day="",year=""):
+        self.response.out.write(form % {"error": error, "month":month,"year":year})
     def valid_month(self,month):
-        months = ['January',
-            'February',
-            'March',
-            'April',
-            'May',
-            'June',
-            'July',
-            'August',
-            'September',
-            'October',
-            'November',
-            'December']
+        months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October','November','December']
         if month:
             cap_month = month.capitalize()
             if cap_month in months:
@@ -42,7 +34,7 @@ class MainHandler(webapp2.RequestHandler):
     def valid_day(self,day):
         if day and day.isdigit():
             day = int(day)
-        if day>0 and day <= 31:
+        if day > 0 and day <= 31:
             return day
     def valid_year(self,year):
         if year and year.isdigit():
@@ -51,15 +43,20 @@ class MainHandler(webapp2.RequestHandler):
                 return year
 
     def get(self):
-        self.response.write(form)
+        self.write_form()
 
     def post(self):
-        user_month = self.valid_month(self.request.get('month'))
-        user_year = self.valid_year(self.request.get('year'))
-        user_day = self.valid_day(self.request.get('day'))
+        user_month = self.request.get('month')
+        user_day = self.request.get('day')
+        user_year = self.request.get('year')
 
-        if not(user_month and user_day and user_year):
-            self.response.out.write("Invalid")
+
+        month = valid_month(user_month)
+        day = valid_day(user_day)
+        year = valid_year(user_year)
+
+        if not(month and day and year):
+            self.write_form("This is not a valid statement ", user_month, user_day, user_year)
         else:
             self.response.out.write("Thanks. This is a valid syntax")
 
